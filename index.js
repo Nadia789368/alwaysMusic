@@ -1,9 +1,6 @@
 const { Client } = require("pg");
 const argumentos = process.argv.slice(2);
 const accion = argumentos[0];
-const rut = argumentos[1];
-const curso = argumentos[2];
-const nivel = argumentos[3];
 
 const config = {
   user: "postgres",
